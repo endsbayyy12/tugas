@@ -1,0 +1,29 @@
+import React, { Component } from 'react';
+import './App.css';
+// import Alert from './Components/Alert';
+import Media from './Components/Media';
+
+class App extends Component {
+
+  // klik = () => {
+  //   alert("Selamat anda diterima")
+  // }
+  render() {
+    return (
+      <div>
+       <p className='bentuk'> Ketuhanan Yang Maha Esa</p>
+        <Media image="download (7).jpeg" sila="Sila ke-1"></Media>
+        <p className='bentuk'> Kemanusiaan Yang Adil Dan Beradab</p>
+        <Media image="WhatsApp Image 2024-01-17 at 11.05.20_11aab074.jpg" sila="Sila ke-2"></Media>
+        <p className='bentuk'> Persatuan Insdonesia</p>
+        <Media image="WhatsApp Image 2024-01-17 at 11.05.20_f4fe6517.jpg" sila="Sila ke-3"></Media>
+        <p className='bentuk'> Kerakyatan Yang Dipimpin Oleh Hikmat Kebikjaksanaan Dalam Permusyawaraan Perwakilan</p>
+        <Media image="WhatsApp Image 2024-01-17 at 11.05.21_3c9c0327.jpg" sila="Sila ke-4"></Media>
+        <p className='bentuk'> Keadilan Bagi Seluruh Rakyat Insdonesia</p>
+        <Media image="WhatsApp Image 2024-01-17 at 11.05.20_1fff6172.jpg" sila="Sila ke-5"></Media>
+      </div>
+    );
+  }
+
+}
+export default App;

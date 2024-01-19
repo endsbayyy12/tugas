@@ -1,0 +1,25 @@
+import React, { Component } from 'react';
+import './App.css';
+// import Alert from './Components/Alert';
+import Media from './Components/Media';
+
+
+
+  // klik = () => {
+  //   alert("Selamat anda diterima")
+  // }
+  class App extends Component{
+    render () {
+      return (
+        <div>
+          <h4  className="container-fluid py-5 btn btn-danger">Button Merah</h4>
+          <h4  className="container-fluid py-5 btn btn-warning">Button Kuning</h4>
+          <h4  className="container-fluid py-5 btn btn-success">Button Hijau</h4>
+          <h4  className="container-fluid py-5 btn btn-light">Button Putih</h4>
+          <h4  className="container-fluid py-5 btn btn-dark">Button Hitam</h4>
+        </div>
+      );
+    }
+  }
+
+  export default App;
